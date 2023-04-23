@@ -78,3 +78,14 @@
     background-position: 500px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
+
+  @media(max-width:900px){
+    .container .card .perfil {
+        top: -90px;
+    }
+    .container .card {
+        width: 90%;
+        height: 70%;
+       
+    }
+  }
