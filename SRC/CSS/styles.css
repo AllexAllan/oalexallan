@@ -40,9 +40,12 @@
     border-radius: 90px;
     position: absolute;
     top: -100px;
+    width: 200px;
+    height: 200px;
 }
 
 .social-medias {
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,10 +84,13 @@
   @media(max-width:900px){
     .container .card .perfil {
         top: -90px;
+        height: 150px;
+        width: 150px;
     }
     .container .card {
         width: 90%;
         height: 70%;
        
     }
+    
   }
