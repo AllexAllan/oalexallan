@@ -99,3 +99,22 @@
     }
     
   }
+  @media(max-height:640px){
+    .container .card .perfil {
+        top: -70px;
+        height: 90px;
+        width:90px;
+    }
+    .container .card {
+        width: 90%;
+        height: 70%;
+       
+    }
+    .container .card .social-medias{
+        position: absolute;
+        bottom: 20px;
+        padding: 5px 0 0 0;
+    }
+    
+  }
+
