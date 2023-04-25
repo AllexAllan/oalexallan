@@ -45,7 +45,7 @@
 }
 
 .social-medias {
-    padding: 0;
+    padding:0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,14 +83,19 @@
 
   @media(max-width:900px){
     .container .card .perfil {
-        top: -90px;
-        height: 150px;
-        width: 150px;
+        top: -50px;
+        height: 125px;
+        width: 125px;
     }
     .container .card {
         width: 90%;
-        height: 90%;
+        height: 70%;
        
+    }
+    .container .card .social-medias{
+        position: absolute;
+        bottom: 20px;
+        padding: 5px 0 0 0;
     }
     
   }
